@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Lizard Spock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Rock Paper Scissor Lizard Spock</h1>
+
+    <div id="AI" class="player-container">
+
+        <div class="name-points-container">
+            <h2>AI</h2>
+        <div class="points">Points: <input id="ai-points" value="0"></input></div>
+
+        </div>
+        <div class="generated-move" id="ai-move"><i class="fa-regular fa-hand-spock"></i></div>
+
+        
+    </div>
+
+    <div id="player" class="player-container">
+        <div class="name-points-container">
+            <h2>Player</h2>
+            <div class="points">Points: <input id="player-points" value="0"></input></div>
+        </div>
+        
+        <div class="generated-move" id="player-move"><i class="fa-regular fa-hand-spock"></i></div>
+
+        <div id="button-container">
+            <button class="player-btn"><i id="rock" class="fa-regular fa-hand-back-fist"></i></button>
+            <button class="player-btn"><i id="paper" class="fa-regular fa-hand"></i></button>
+            <button class="player-btn"><i id="scissor" class="fa-regular fa-hand-peace"></i></button>
+            <button class="player-btn"><i id="lizard" class="fa-regular fa-hand-lizard"></i></button>
+            <button class="player-btn"><i id="spock" class="fa-regular fa-hand-spock"></i></button>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/926771b787.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

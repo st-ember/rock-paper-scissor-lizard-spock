@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+.player-container {
+    width: 200px;
+    height: 220px;
+    margin: 50px auto;
+    border: solid black;
+
+}
+
+.name-points-container {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.generated-move {
+    text-align: center;
+    font-size: 6em;
+}
+
+#button-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    width: 20px;
+    font-size: 1em;
+}
